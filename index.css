@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    row-gap: 50px;
+    background-color: #203141;
+}
+.score{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(105, 105, 105);
+    border-radius: 5px;
+    color: white;
+}
+.inner{
+    animation: fill 1.5s linear;
+    background-color: rgb(0, 255, 123);
+    height: 20px;
+    border-radius: 5px;
+    width: 95%;
+    
+}
+@keyframes fill {
+    0%{
+        width: 0%;
+    }
+}
+.inner1{
+    animation: fill 1.5s linear;
+    background-color: rgb(225, 0, 255);
+    height: 20px;
+    border-radius: 5px;
+    width: 90%;
+}
+.inner2{
+    animation: fill 1.5s linear;
+    background-color: rgb(0, 136, 255);
+    height: 20px;
+    border-radius: 5px;
+    width: 92%;
+}
+P{
+    margin-top: 0px;
+    text-align: center;
+}
